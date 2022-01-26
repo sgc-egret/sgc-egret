@@ -1,0 +1,10 @@
+js中得apply 和 call 和bind的区别
+上面三个函数的作用都是改变this的指向 
+
+apply的传值方式 fun().apply(this,[parame,parame,parame]
+
+call的传值方式 fun().call(this,parame,parame,parame)
+
+bind的传值方式和call的是一样 ，bin方法调用后返回的是一个新的函数，
+需要手动调用 
+fun.bind(this,parame,parame,parame)( );
